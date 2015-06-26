@@ -8,7 +8,7 @@ var _gaq = _gaq || [];
  * Analytics Id.
  * @type {String}
  */
-var ANALYTICS_ID = 'UA-54021204-2';
+var ANALYTICS_ID = '';
 
 /**
  * Get all link on the page.
