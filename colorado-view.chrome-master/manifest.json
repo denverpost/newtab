@@ -1,0 +1,20 @@
+{
+	"name": "Colorado View",
+	"version": "0.0.1",
+	"manifest_version": 1,
+	"description": "",
+    "options_page": "options.html",
+	"browser_action": {
+	    "default_icon": "icon.gif",
+		"default_popup": "newtab.html",
+        "default_title": "COLORADO" 
+	},
+	"icons": {
+        "16": "icon_16.gif",
+        "48": "icon.gif"
+	},
+    "background": {
+        "page": "background.html"
+    },
+	"permissions": [ "storage", "tabs", "http://*/*", "http://*/", "https://*/" ]
+}
